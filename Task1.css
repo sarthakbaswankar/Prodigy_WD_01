@@ -1,0 +1,270 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #070707;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #ebf0f6;
+    color: #100f0f;
+    padding: 20px 0;
+}
+
+/* Style the logo */
+.logo {
+    display: flex;
+    align-items: center;
+    color: #007BFF;
+    font-size: 24px;
+}
+
+.logo img {
+    width: 150px; /* Adjust the width as needed */
+    height: 130px; /* Adjust the height as needed */
+    margin-right: 30px; /* Add spacing between the logo and text */
+}
+
+
+.navbar {
+    list-style: none;
+}
+
+/* Move the "Home" and other list items to the right */
+.navbar li.ml-auto {
+    margin-right: auto;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the "section1" */
+.section1 {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style the heading in the content */
+.content h1 {
+    font-size: 36px; /* Increase font size to make it bigger */
+    margin: 15px 0; /* Increase margin for spacing */
+}
+
+/* Style the paragraph in the content */
+.content p {
+    font-size: 20px; /* Increase font size to make it bigger */
+    margin: 15px 0; /* Increase margin for spacing */
+}
+
+/* Style the content container */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Style the text in the content */
+.content h1, .content p {
+    margin: 10px 0;
+}
+
+/* Style the image container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the car image */
+.carimg, .garageimg {
+    max-width: 50%; /* Make the images smaller */
+    height: auto;
+    border-radius: 10px; /* Add rounded corners */
+    margin: 10px; /* Add some spacing between the images */
+}
+
+/* Style the "View Cars" button */
+.btn {
+    background-color: #fff;
+    color: #007BFF;
+    padding: 15px 30px; /* Increase padding to make it bigger */
+    font-size: 20px; /* Increase font size to make it bigger */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/* Center the "View Cars" button */
+.center {
+    margin-top: 20px;
+}
+
+
+
+
+/* Style the "Our Services" section */
+.section2 {
+    background-color: #f8f8f8; /* Background color for the section */
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style the heading in the section */
+.section2 h1 {
+    font-size: 30px;
+    margin: 20px 0; /* Add margin for spacing */
+    color: #007BFF; /* Text color for the heading */
+}
+
+/* Style the paragraph in the section */
+.section2 p {
+    font-size: 18px;
+    margin: 20px 0; /* Add margin for spacing */
+    color: #333; /* Text color for the paragraph */
+}
+
+/* Style the boxes container */
+.boxes {
+    display: flex;
+    flex-wrap: wrap; /* Allow boxes to wrap to the next line on smaller screens */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the individual service boxes */
+.box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+/* Hover effect for service boxes */
+.box:hover {
+    transform: scale(1.05); /* Enlarge the box on hover */
+}
+
+/* Style the headings inside the service boxes */
+.box h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Style the paragraph inside the service boxes */
+.box p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Style the "Learn More" button inside the service boxes */
+.box .btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.2s;
+}
+
+/* Hover effect for the "Learn More" button */
+.box .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+/* Style the "Contact Us" section */
+.section3 {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style the "Contact Us" section title */
+.section3 h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style the "Contact Us" section description */
+.section3 p {
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* Style the contact form container */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form labels */
+.contact-form label {
+    font-weight: bold;
+}
+
+/* Style form input fields */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px
+}
+
+/* Style the "Send Message" button */
+.contact-form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

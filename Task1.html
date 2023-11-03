@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Car Website - The Best Cars in Town</title>
+    <link rel="stylesheet" href="Task1.css">
+    <link rel="stylesheet" href="Task1U.css">
+</head>
+
+<body>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue">
+                    <img src="Car.png" alt="CarVan Logo"> <!-- Add the logo here -->
+                    CarVan
+                </div>
+                <ul class="navbar flex items-center">
+                    <li class="ml-auto">Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                    <li><button class="btn">Explore Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+            <section class="section1">
+                <div class="content">
+                    <div class="text-center">
+                        <h1 class="my-1">Discover the Finest Cars in Town</h1>
+                        <p>Explore our collection of top-notch cars and find your dream ride today.</p>
+                    </div>
+                    <div class="image-container">
+                        <img class="carimg" src="Car1.png" alt="Car Image">
+                        <img class="garageimg" src="garage.webp" alt="Garage Image">
+                    </div>
+                    <button class="btn center">View Cars</button>
+                </div>
+            </section>
+            
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">Our Services</h1>
+                <p class="my-2">Experience our range of car services, designed to keep your vehicle in top shape and
+                    ensure a smooth ride.</p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Car Sales</h2>
+                        <p>Explore our extensive collection of new and used cars.</p>
+                        <button class="btn">Learn More</button>
+                    </div>
+                    <div class="box">
+                        <h2>Repairs & Maintenance</h2>
+                        <p>Trust your car with our expert technicians for repairs and maintenance.</p>
+                        <button class="btn">Learn More</button>
+                    </div>
+                    <div class="box">
+                        <h2>Car Rentals</h2>
+                        <p>Rent a car for your next adventure or special occasion.</p>
+                        <button class="btn">Learn More</button>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section3">
+                <h1 class="text-center my-2">Contact Us</h1>
+                <p class="my-2">Get in touch with us for any car-related inquiries or to schedule a test drive.</p>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button class="btn" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            &copy; 2023 CarZone | All rights reserved
+        </footer>
+    </div>
+
+    <script>
+        // JavaScript for the "View Cars" button
+        const viewCarsButton = document.querySelector(".btn.center");
+    
+        viewCarsButton.addEventListener("click", function () {
+            alert("Thank you for exploring our cars! Feel free to browse our car collection.");
+        });
+    </script>
+
+
+
+</body>
+
+</html>
